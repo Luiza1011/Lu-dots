@@ -1,0 +1,43 @@
+{
+"id": "2",
+"position": "bottom",
+"layer": "top",
+	"modules-left": ["sway/workspaces"],
+    "modules-center": ["wlr/taskbar"],
+	"modules-right": ["tray"],
+
+
+
+
+"sway/workspaces": {
+  "format": "{icon}",
+  "on-click": "activate",
+  "format-icons": {
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "",
+    "6": "",
+    "7": "",
+    "8": "",
+    "9": "",
+    "10": "",
+    "urgent": "",
+    "default": ""
+  },
+  "sort-by-number": true
+},
+
+"tray":{
+	"icon-size":18,
+	"spacing": 10
+},
+
+"wlr/taskbar":{
+    "icon-size": 18,
+    "on-click": "maximize",
+    "on-click-right": "minimize",
+    "on-click-middle": "close",
+},
+}

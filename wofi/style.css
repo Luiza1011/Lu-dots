@@ -1,0 +1,109 @@
+/* ::root{ */
+/*     --accent: #5291e2; */
+/*     --dark: #383C4A; */
+/*     --light: #7C818C; */
+/*     --ld: #404552; */
+/*     --dl: #4B5162 */
+/*     --white: white; */
+/* } */
+
+
+/*Neutral colors*/
+@define-color blck1e #1e1e1e;
+@define-color offwht #FAF9F6;
+
+/*trans flag*/
+@define-color transb #5BCEFA;
+@define-color transp #F5A9B8;
+
+/*Lesbian flag*/
+@define-color lborgd #D52D00;
+@define-color lborgm #EF7627;
+@define-color lborgl #FF9A56;
+@define-color lbpnkl #D162A4;
+@define-color lbpnkd #B55690;
+@define-color lbrose #A30262;
+
+/*Bi flag*/
+@define-color bipink #D60270;
+@define-color biprpl #9B4F96;
+@define-color biblue #0038A8;
+
+/*pan flag*/
+@define-color panmgt #FF218C;
+@define-color panylw #FFD800;
+@define-color panblu #21B1FF;
+
+/*nb flag*/
+@define-color nbyllw #FCF434;
+@define-color nbprpl #9C59D1;
+@define-color nbblck #2c2c2c;
+
+/*sapphic flag*/
+@define-color sppink #FD8BA8;
+@define-color spphlb #FBF2FF;
+@define-color spplav #C76BC5;
+@define-color sppyll #FDD768;
+
+
+
+
+
+
+
+*{
+    font-family: monospace;
+    border-radius: 30px;
+    color: @lbpnkl;
+}
+
+window {
+    background-color: @lbpnkd;
+    border-radius: 23px;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    border: 2px solid @lborgm;
+    color: @lbpnkl;
+    border-radius: 18px;
+}
+
+#inner-box {
+    border-radius: 10px;
+}
+
+#outer-box {
+    margin: 4px;
+    padding:15px;
+    background-color: #1e1e1e;
+    border: 3px solid @lbpnkd;
+    border-radius: 23px;
+}
+
+#scroll {
+}
+
+#text {
+padding: 5px;
+color: @lbpnkl;
+border-radius: 10px;
+}
+
+#entry:nth-child(even){
+    background-color: #1b1b1b;
+    border-radius: 10px;
+}
+
+#entry:selected {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 2px solid @lborgl;
+
+}
+
+#text:selected {
+    color: @lbpnkl;
+    border-radius: 10px;
+}
