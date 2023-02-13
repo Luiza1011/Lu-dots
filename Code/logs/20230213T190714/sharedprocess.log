@@ -1,0 +1,16 @@
+2023-02-13 19:07:17.328 [info] Deleted from disk gitlab.gitlab-workflow /home/luiza/.vscode/extensions/gitlab.gitlab-workflow-3.59.2
+2023-02-13 19:07:17.328 [info] Deleted from disk redstonewizard08.gitlab /home/luiza/.vscode/extensions/redstonewizard08.gitlab-0.2.0
+2023-02-13 19:07:17.689 [info] Starting worker process with pid 55045 (type: fileWatcher, window: 1).
+2023-02-13 19:07:18.764 [info] Starting worker process with pid 55187 (type: fileWatcher, window: 3).
+2023-02-13 19:07:19.423 [info] Worker process with pid 55187 terminated normally (type: fileWatcher, window: 3).
+2023-02-13 19:10:06.899 [info] Getting Manifest... redjue.git-commit-plugin
+2023-02-13 19:10:06.903 [info] Installing extension: redjue.git-commit-plugin
+2023-02-13 19:10:09.567 [warning] Extension signature verification: redjue.git-commit-plugin. Verification status: UnknownError.
+2023-02-13 19:10:10.476 [info] Extracted extension to /home/luiza/.vscode/extensions/.6a46c023-304b-4ea7-818f-bcd2484b0a5e: redjue.git-commit-plugin
+2023-02-13 19:10:10.573 [info] Renamed to /home/luiza/.vscode/extensions/redjue.git-commit-plugin-1.1.2
+2023-02-13 19:10:10.577 [info] Extracting completed. redjue.git-commit-plugin
+2023-02-13 19:10:10.641 [info] Extension installed successfully: redjue.git-commit-plugin
+2023-02-13 19:19:59.622 [info] Worker process with pid 55045 terminated normally (type: fileWatcher, window: 1).
+2023-02-13 19:20:00.281 [info] Starting worker process with pid 57063 (type: fileWatcher, window: 1).
+2023-02-13 19:21:38.293 [info] Worker process with pid 57063 terminated normally (type: fileWatcher, window: 1).
+2023-02-13 19:21:39.021 [info] Starting worker process with pid 57983 (type: fileWatcher, window: 1).

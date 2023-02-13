@@ -1,0 +1,7 @@
+2023-02-13 19:22:28.201 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-13 19:22:28.415 [warning] Ignoring the error while validating workspace folder file:///home/luiza/workspaces%20code/~/Lu-dots - Error: ENOENT: no such file or directory, stat '/home/luiza/workspaces code/~/Lu-dots'
+2023-02-13 19:22:30.155 [error] ENOENT: no such file or directory, scandir '/home/luiza/workspaces code/~/Lu-dots': Error: ENOENT: no such file or directory, scandir '/home/luiza/workspaces code/~/Lu-dots'
+2023-02-13 19:22:31.415 [info] [perf] Render performance baseline is 24ms
+2023-02-13 19:23:12.178 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/luiza/workspaces%20code/Lu-dots.code-workspace 
+2023-02-13 19:23:12.500 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-13 19:23:15.465 [info] [perf] Render performance baseline is 28ms

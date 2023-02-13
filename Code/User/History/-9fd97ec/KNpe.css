@@ -1,0 +1,46 @@
+/**
+  * @name Dark+
+  * @author DevEvil#8745
+  * @version Dark+3
+  * @description Highly customized dark and purple theme for Discord
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.com
+  * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
+  * @website https://devevil.com
+  * @invite jsQ9UP7kCA
+*/
+@import url('https://gitlab.com/elatetunic/discord-themes/-/raw/main/frostedglass.theme.css');
+@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Dark+/Dark+.theme.css');
+
+:root {
+  --darkplus-bg: rgba(#1e1e1e11);
+  --darkplus-bg2: #1e1e1f;
+  --darkplus-sec: #bb86fc;
+  --darkplus-links: #b560ee;
+  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 70%;
+  --watermark-filter-contrast: 200%;
+  --darkplus-emoji-picker-color: 210deg;
+  --bg-image: url('https://cdn.discordapp.com/attachments/996653931033796638/1039717226787373096/wallpapertrans.png')
+}
+
+
+.cozy-VmLDNB .messageContent-2t3eCI,
+.username-h_Y3Us,
+.subtext-2HDqJ7,
+.embedAuthorName-pGyUPR,
+.embedFieldName-9LYSyR,
+.embedTitle-2n1pEb,
+.embedDescription-1DrJxZ,
+.embedFieldValue-3EHtvR,
+.icon-uXAV0f,
+.reactionBtn-3_qQdk,
+.reactionBtn-3_qQdk:hover .icon-uXAV0f,
+.name-3Uvkvr,
+.headerChildren-2qV9P8 {
+  color: #bb86fc;
+}

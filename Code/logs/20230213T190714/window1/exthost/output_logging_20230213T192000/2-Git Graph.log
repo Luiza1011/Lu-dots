@@ -1,0 +1,10 @@
+[2023-02-13 19:20:00.867] Starting Git Graph ...
+[2023-02-13 19:20:00.880] Using git (version: 2.39.1)
+[2023-02-13 19:20:00.894] > git rev-parse --show-toplevel
+[2023-02-13 19:20:00.894] Showing "Git Graph" Status Bar Item
+[2023-02-13 19:20:00.895] Started Git Graph - Ready to use!
+[2023-02-13 19:20:00.955] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2023-02-13 19:20:00.966] Searching workspace for new repos ...
+[2023-02-13 19:20:00.966] Completed searching workspace for new repos
+[2023-02-13 19:21:22.301] Removed repo: /home/luiza/Lu-dots
+[2023-02-13 19:21:22.302] Hiding "Git Graph" Status Bar Item

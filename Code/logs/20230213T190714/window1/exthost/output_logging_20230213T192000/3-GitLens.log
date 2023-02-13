@@ -1,0 +1,2 @@
+[2023-02-13 22:20:42.549] [GIT  ] [/home/luiza/Lu-dots] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- hypr/keywords.conf • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c color.diff=false diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- hypr/keywords.conf • bad revision '0000000000000000000000000000000000000000-' • 12 ms
+

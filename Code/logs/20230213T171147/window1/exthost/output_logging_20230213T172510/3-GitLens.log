@@ -1,0 +1,6 @@
+[2023-02-13 20:25:46.953] [GIT  ] [/home/luiza/Lu-dots] git diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- hypr/hyprland.conf • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c color.diff=false diff --no-ext-diff --minimal -U0 -M --diff-filter=M 0000000000000000000000000000000000000000- -- hypr/hyprland.conf • bad revision '0000000000000000000000000000000000000000-' • 6 ms
+
+[2023-02-13 20:26:12.684] [GIT  ] [/home/luiza/Lu-dots/.git] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • this operation must be run in a work tree • 14 ms
+
+[2023-02-13 20:39:01.091] Yt.c
+Canceled (FileSystemError): Canceled

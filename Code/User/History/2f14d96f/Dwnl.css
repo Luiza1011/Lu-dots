@@ -1,0 +1,68 @@
+@import url(https://gitlab.com/elatetunic/discord-themes/-/raw/main/frostedglass.theme.css);
+@import url(https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Dark+/Dark+.theme.css);
+
+@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
+@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
+
+:root {
+  --dplus-font-ui: 'ubuntu';
+  --dplus-font-body: 'ubuntu';
+  --dplus-font-header: 'ubuntu';
+
+  --darkplus-bg: rgba(#b3020211);
+  --darkplus-bg2: #1e1e1f;
+  --darkplus-sec: #1ad401;
+  --darkplus-links: #b560ee;
+  --darkplus-home-icon: url(https://i.ibb.co/TqwvWVG/trans-discord-b.png);
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 70%;
+  --watermark-filter-contrast: 200%;
+  --darkplus-emoji-picker-color: 210deg;
+
+  /* Size of user and server icons 
+  --dplus-icon-avatar-chat: 64px;
+  --dplus-icon-avatar-list: 32px;
+  --dplus-icon-avatar-profile: 80px;
+
+  --dplus-icon-server-sidebar: 48px;
+  --dplus-icon-server-list: 32px; */
+
+-background-image: url(https://cdn.discordapp.com/attachments/996653931033796638/1039717226787373096/wallpapertrans.png);
+
+  --gradient-primary: 127,83,182; /* DEFAULT: 103,58,183 */
+  --gradient-secondary: 59,0,131; /* DEFAULT: 63,81,181 */
+  --gradient-direction: 320deg; /* DEFAULT: 320deg */
+
+    /* Home image variables */
+    --home-button-image: url(https://i.ibb.co/TqwvWVG/trans-discord-b.png); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --home-button-size: cover; /* Size of the home button image | DEFAUT: cover /
+    --home-button-position: center; /* Position of home button image | DEAFULT: center */
+
+
+}
+
+:root {
+  --HSL-server-icon-size: 60px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 4px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+}
+
+
+.cozy-VmLDNB .messageContent-2t3eCI,
+.username-h_Y3Us,
+.subtext-2HDqJ7,
+.embedAuthorName-pGyUPR,
+.embedFieldName-9LYSyR,
+.embedTitle-2n1pEb,
+.embedDescription-1DrJxZ,
+.embedFieldValue-3EHtvR,
+.icon-uXAV0f,
+.reactionBtn-3_qQdk,
+.reactionBtn-3_qQdk:hover .icon-uXAV0f,
+.name-3Uvkvr,
+.headerChildren-2qV9P8 {
+  color: #bb86fc;
+}

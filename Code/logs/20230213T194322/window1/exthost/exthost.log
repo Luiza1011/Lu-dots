@@ -1,0 +1,24 @@
+2023-02-13 19:43:23.786 [info] Extension host with pid 4491 started
+2023-02-13 19:43:23.786 [info] Skipping acquiring lock for /home/luiza/.config/Code/User/workspaceStorage/2de5bc56242b520a777cca1d85cfe363.
+2023-02-13 19:43:23.890 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-13 19:43:23.896 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onLanguage:git-commit'
+2023-02-13 19:43:23.898 [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: true, activationEvent: '*'
+2023-02-13 19:43:23.917 [info] ExtensionService#_doActivateExtension jzmstrjp.color-the-tag-name, startup: true, activationEvent: '*'
+2023-02-13 19:43:23.918 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2023-02-13 19:43:23.982 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-13 19:43:24.005 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-13 19:43:24.041 [info] ExtensionService#_doActivateExtension circlecodesolution.ccs-flutter-color, startup: true, activationEvent: 'workspaceContains:**/*'
+2023-02-13 19:43:24.074 [info] Eager extensions activated
+2023-02-13 19:43:24.112 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-13 19:43:24.115 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-13 19:43:24.129 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2023-02-13 19:43:24.134 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-02-13 19:43:24.172 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-02-13 19:43:24.178 [info] ExtensionService#_doActivateExtension royaction.color-manager, startup: false, activationEvent: 'onStartupFinished'
+2023-02-13 19:43:24.481 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-13 19:43:24.516 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-02-13 19:43:24.591 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-13 19:43:26.046 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-13 19:43:26.048 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-13 19:43:26.065 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-13 19:44:20.800 [warning] TextEditor is closed/disposed

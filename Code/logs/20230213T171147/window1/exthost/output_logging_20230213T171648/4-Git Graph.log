@@ -1,0 +1,46 @@
+[2023-02-13 17:16:59.740] Starting Git Graph ...
+[2023-02-13 17:16:59.749] Using git (version: 2.39.1)
+[2023-02-13 17:16:59.754] Started Git Graph - Ready to use!
+[2023-02-13 17:16:59.754] Searching workspace for new repos ...
+[2023-02-13 17:16:59.762] > git rev-parse --show-toplevel
+[2023-02-13 17:16:59.791] Added new repo: /home/luiza/temas
+[2023-02-13 17:16:59.798] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2023-02-13 17:16:59.807] Completed searching workspace for new repos
+[2023-02-13 17:16:59.807] Showing "Git Graph" Status Bar Item
+[2023-02-13 17:23:07.725] Created Git Graph View (active repo: /home/luiza/temas)
+[2023-02-13 17:23:08.082] > git branch -a --no-color
+[2023-02-13 17:23:08.087] > git remote
+[2023-02-13 17:23:08.092] > git reflog --format=... refs/stash --
+[2023-02-13 17:23:08.094] Started watching repo: /home/luiza/temas
+[2023-02-13 17:23:08.102] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2023-02-13 17:23:08.107] > git show-ref -d --head
+[2023-02-13 17:23:08.114] > git status --untracked-files=all --porcelain
+[2023-02-13 17:23:08.140] > git --no-pager config --list -z --includes
+[2023-02-13 17:23:08.144] > git --no-pager config --list -z --includes --local
+[2023-02-13 17:23:08.148] > git --no-pager config --list -z --includes --global
+[2023-02-13 17:23:12.877] Stopped watching repo: /home/luiza/temas
+[2023-02-13 17:23:13.807] > git branch -a --no-color
+[2023-02-13 17:23:13.813] > git remote
+[2023-02-13 17:23:13.818] > git reflog --format=... refs/stash --
+[2023-02-13 17:23:13.820] Started watching repo: /home/luiza/temas
+[2023-02-13 17:23:13.828] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2023-02-13 17:23:13.833] > git show-ref -d --head
+[2023-02-13 17:23:13.839] > git status --untracked-files=all --porcelain
+[2023-02-13 17:23:16.579] > git branch -a --no-color
+[2023-02-13 17:23:16.588] > git remote
+[2023-02-13 17:23:16.594] > git reflog --format=... refs/stash --
+[2023-02-13 17:23:16.604] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2023-02-13 17:23:16.609] > git show-ref -d --head
+[2023-02-13 17:23:16.616] > git status --untracked-files=all --porcelain
+[2023-02-13 17:23:26.211] > git branch -a --no-color
+[2023-02-13 17:23:26.221] > git remote
+[2023-02-13 17:23:26.227] > git reflog --format=... refs/stash --
+[2023-02-13 17:23:26.237] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2023-02-13 17:23:26.244] > git show-ref -d --head
+[2023-02-13 17:23:26.253] > git status --untracked-files=all --porcelain
+[2023-02-13 17:23:28.600] > git branch -a --no-color
+[2023-02-13 17:23:28.607] > git remote
+[2023-02-13 17:23:28.616] > git reflog --format=... refs/stash --
+[2023-02-13 17:23:28.627] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2023-02-13 17:23:28.634] > git show-ref -d --head
+[2023-02-13 17:23:28.642] > git status --untracked-files=all --porcelain

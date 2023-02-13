@@ -1,0 +1,383 @@
+2023-02-13 19:07:20.753 [info] Log level: Info
+2023-02-13 19:07:20.753 [info] Validating found git in: "git"
+2023-02-13 19:07:20.753 [info] Using git "2.39.1" from "git"
+2023-02-13 19:07:20.753 [info] > git rev-parse --show-toplevel [13ms]
+2023-02-13 19:07:20.753 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-02-13 19:07:20.753 [info] Open repository: /home/luiza/temas
+2023-02-13 19:07:20.753 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-13 19:07:20.753 [info] > git config --get commit.template [8ms]
+2023-02-13 19:07:20.753 [info] > git rev-parse --show-toplevel [8ms]
+2023-02-13 19:07:20.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-02-13 19:07:20.753 [info] > git status -z -uall [8ms]
+2023-02-13 19:07:20.753 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:07:20.753 [info] > git config --get commit.template [5ms]
+2023-02-13 19:07:20.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:07:20.753 [info] > git status -z -uall [6ms]
+2023-02-13 19:07:20.753 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:07:20.768 [info] > git fetch [640ms]
+2023-02-13 19:07:20.807 [info] > git config --get commit.template [3ms]
+2023-02-13 19:07:20.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2023-02-13 19:07:20.850 [info] > git status -z -uall [18ms]
+2023-02-13 19:07:20.851 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2023-02-13 19:07:21.158 [info] > git check-ignore -v -z --stdin [29ms]
+2023-02-13 19:07:28.946 [info] > git show --textconv :Discord+ mix/Discord+ black background.theme.css [11ms]
+2023-02-13 19:07:28.948 [info] > git ls-files --stage -- /home/luiza/temas/Discord+ mix/Discord+ black background.theme.css [2ms]
+2023-02-13 19:07:28.972 [info] > git cat-file -s 9f12a92a91b42bc7cd5fe92198f2dce3fae0000b [16ms]
+2023-02-13 19:07:29.315 [info] > git show --textconv :Discord+ mix/dark+branch.theme.css [9ms]
+2023-02-13 19:07:29.315 [info] > git ls-files --stage -- /home/luiza/temas/Discord+ mix/dark+branch.theme.css [1ms]
+2023-02-13 19:07:29.326 [info] > git cat-file -s 0335efcddd2221950725c29830db0a1a4563c8d8 [2ms]
+2023-02-13 19:07:30.389 [info] > git show --textconv :Discord+ mix/Discord+mix.theme.css [9ms]
+2023-02-13 19:07:30.390 [info] > git ls-files --stage -- /home/luiza/temas/Discord+ mix/Discord+mix.theme.css [2ms]
+2023-02-13 19:07:30.399 [info] > git cat-file -s 7e6932c5c00724237ff52c33a23d4757f2233e12 [1ms]
+2023-02-13 19:09:20.174 [info] > git show --textconv :Dark+ custom/Dark+.theme.css [7ms]
+2023-02-13 19:09:20.174 [info] > git ls-files --stage -- /home/luiza/temas/Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:09:20.182 [info] > git cat-file -s 21c56ebc8b09b4fc10f2219a696300077ac9b8cd [2ms]
+2023-02-13 19:09:29.029 [info] > git config --get commit.template [2ms]
+2023-02-13 19:09:29.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:09:29.066 [info] > git status -z -uall [17ms]
+2023-02-13 19:09:29.066 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2023-02-13 19:09:31.841 [info] > git add -A -- . [1ms]
+2023-02-13 19:09:32.201 [info] > git show --textconv :.git/COMMIT_EDITMSG [18ms]
+2023-02-13 19:09:32.201 [info] > git ls-files --stage -- /home/luiza/temas/.git/COMMIT_EDITMSG [1ms]
+2023-02-13 19:09:32.509 [info] > git check-ignore -v -z --stdin [2ms]
+2023-02-13 19:09:39.350 [info] > git ls-files --stage -- /home/luiza/temas/Dark+ custom/Dark+.theme.css [11ms]
+2023-02-13 19:09:39.357 [info] > git cat-file -s 48fd243a9bb9ccf8e5bc3c55ed44026a9abfc23b [1ms]
+2023-02-13 19:09:39.357 [info] > git ls-files --stage -- /home/luiza/temas/.git/COMMIT_EDITMSG [8ms]
+2023-02-13 19:09:39.371 [info] > git show --textconv :Dark+ custom/Dark+.theme.css [7ms]
+2023-02-13 19:09:39.371 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2023-02-13 19:09:41.854 [info] > git -c user.useConfigOnly=true commit --quiet [10006ms]
+2023-02-13 19:09:41.854 [info] Aborting commit due to empty commit message.
+2023-02-13 19:09:41.863 [info] > git config --get commit.template [1ms]
+2023-02-13 19:09:41.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2023-02-13 19:09:41.900 [info] > git status -z -uall [8ms]
+2023-02-13 19:09:41.900 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-13 19:09:43.470 [info] > git branch [2ms]
+2023-02-13 19:09:43.483 [info] > git reset -q HEAD -- . [3ms]
+2023-02-13 19:09:43.503 [info] > git config --get commit.template [10ms]
+2023-02-13 19:09:43.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:09:43.520 [info] > git status -z -uall [9ms]
+2023-02-13 19:09:43.521 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-13 19:09:44.576 [info] > git config --get commit.template [2ms]
+2023-02-13 19:09:44.583 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:09:44.602 [info] > git status -z -uall [8ms]
+2023-02-13 19:09:44.602 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:09:44.677 [info] > git ls-files --stage -- /home/luiza/temas/Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:09:44.689 [info] > git cat-file -s 21c56ebc8b09b4fc10f2219a696300077ac9b8cd [2ms]
+2023-02-13 19:09:44.700 [info] > git show --textconv :Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:09:46.794 [info] > git add -A -- . [2ms]
+2023-02-13 19:09:46.804 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [3ms]
+2023-02-13 19:09:46.811 [info] > git config --get commit.template [1ms]
+2023-02-13 19:09:46.821 [info] > git config --get commit.template [2ms]
+2023-02-13 19:09:46.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:09:46.842 [info] > git status -z -uall [7ms]
+2023-02-13 19:09:46.843 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:09:46.857 [info] > git log --oneline --cherry main...main@{upstream} -- [1ms]
+2023-02-13 19:09:47.425 [info] > git pull --tags origin main [561ms]
+2023-02-13 19:09:47.425 [info] From https://github.com/Luiza1011/temas
+ * branch            main       -> FETCH_HEAD
+2023-02-13 19:09:48.610 [info] > git ls-files --stage -- /home/luiza/temas/Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:09:48.617 [info] > git cat-file -s 48fd243a9bb9ccf8e5bc3c55ed44026a9abfc23b [1ms]
+2023-02-13 19:09:48.626 [info] > git show --textconv :Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:09:48.838 [info] > git push origin main:main [1401ms]
+2023-02-13 19:09:48.838 [info] To https://github.com/Luiza1011/temas.git
+   e4732cf..e1356db  main -> main
+2023-02-13 19:09:48.852 [info] > git config --get commit.template [7ms]
+2023-02-13 19:09:48.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:09:48.865 [info] > git status -z -uall [7ms]
+2023-02-13 19:09:48.865 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:09:48.930 [info] > git config --get commit.template [2ms]
+2023-02-13 19:09:48.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:09:48.954 [info] > git status -z -uall [8ms]
+2023-02-13 19:09:48.955 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:09:50.029 [info] > git config --get commit.template [2ms]
+2023-02-13 19:09:50.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-02-13 19:09:50.061 [info] > git status -z -uall [9ms]
+2023-02-13 19:09:50.062 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:09:50.134 [info] > git ls-files --stage -- /home/luiza/temas/Dark+ custom/Dark+.theme.css [2ms]
+2023-02-13 19:09:50.146 [info] > git cat-file -s 48fd243a9bb9ccf8e5bc3c55ed44026a9abfc23b [2ms]
+2023-02-13 19:09:50.159 [info] > git show --textconv :Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:11:26.355 [info] > git fetch [574ms]
+2023-02-13 19:11:26.381 [info] > git config --get commit.template [13ms]
+2023-02-13 19:11:26.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:11:26.400 [info] > git status -z -uall [9ms]
+2023-02-13 19:11:26.401 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:11:27.446 [info] > git config --get commit.template [2ms]
+2023-02-13 19:11:27.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:11:27.473 [info] > git status -z -uall [8ms]
+2023-02-13 19:11:27.474 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:11:27.546 [info] > git ls-files --stage -- /home/luiza/temas/Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:11:27.559 [info] > git cat-file -s 48fd243a9bb9ccf8e5bc3c55ed44026a9abfc23b [1ms]
+2023-02-13 19:11:27.571 [info] > git show --textconv :Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:19:06.031 [info] > git fetch [565ms]
+2023-02-13 19:19:06.058 [info] > git config --get commit.template [12ms]
+2023-02-13 19:19:06.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:19:06.076 [info] > git status -z -uall [9ms]
+2023-02-13 19:19:06.076 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:19:41.621 [info] > git config --get commit.template [1ms]
+2023-02-13 19:19:41.630 [info] > git ls-files --stage -- /home/luiza/temas/Dark+ custom/Dark+.theme.css [1ms]
+2023-02-13 19:19:41.650 [info] > git cat-file -s 48fd243a9bb9ccf8e5bc3c55ed44026a9abfc23b [11ms]
+2023-02-13 19:19:41.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:19:41.668 [info] > git status -z -uall [9ms]
+2023-02-13 19:19:41.678 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2023-02-13 19:19:41.680 [info] > git show --textconv :Dark+ custom/Dark+.theme.css [3ms]
+2023-02-13 19:20:01.259 [info] Log level: Info
+2023-02-13 19:20:01.259 [info] Validating found git in: "git"
+2023-02-13 19:20:01.259 [info] Using git "2.39.1" from "git"
+2023-02-13 19:20:01.259 [info] > git rev-parse --show-toplevel [8ms]
+2023-02-13 19:20:01.259 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-02-13 19:20:01.259 [info] Open repository: /home/luiza/Lu-dots
+2023-02-13 19:20:01.259 [info] > git rev-parse --show-toplevel [13ms]
+2023-02-13 19:20:01.259 [info] > git rev-parse --show-toplevel [19ms]
+2023-02-13 19:20:01.259 [info] > git config --get commit.template [31ms]
+2023-02-13 19:20:01.259 [info] > git rev-parse --show-toplevel [84ms]
+2023-02-13 19:20:01.275 [info] > git rev-parse --show-toplevel [110ms]
+2023-02-13 19:20:01.314 [info] > git rev-parse --show-toplevel [33ms]
+2023-02-13 19:20:01.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [158ms]
+2023-02-13 19:20:01.472 [info] > git status -z -uall [49ms]
+2023-02-13 19:20:01.472 [info] > git show --textconv :hypr/keywords.conf [36ms]
+2023-02-13 19:20:01.473 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [42ms]
+2023-02-13 19:20:01.479 [info] > git ls-files --stage -- /home/luiza/Lu-dots/hypr/keywords.conf [36ms]
+2023-02-13 19:20:01.492 [info] > git cat-file -s b01ff2d3623687c98d70900d8e21d446e32c07e9 [8ms]
+2023-02-13 19:20:01.501 [info] > git config --get commit.template [10ms]
+2023-02-13 19:20:01.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2023-02-13 19:20:01.555 [info] > git status -z -uall [8ms]
+2023-02-13 19:20:01.555 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-13 19:20:01.575 [info] > git check-ignore -v -z --stdin [3ms]
+2023-02-13 19:20:02.320 [info] > git fetch [755ms]
+2023-02-13 19:20:02.342 [info] > git config --get commit.template [9ms]
+2023-02-13 19:20:02.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-02-13 19:20:02.371 [info] > git status -z -uall [8ms]
+2023-02-13 19:20:02.372 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:20:03.413 [info] > git config --get commit.template [13ms]
+2023-02-13 19:20:03.438 [info] > git show --textconv :hypr/Lu-dots.code-workspace [17ms]
+2023-02-13 19:20:03.449 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2023-02-13 19:20:03.466 [info] > git ls-files --stage -- /home/luiza/Lu-dots/hypr/Lu-dots.code-workspace [37ms]
+2023-02-13 19:20:03.468 [info] > git status -z -uall [11ms]
+2023-02-13 19:20:03.475 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2023-02-13 19:20:03.513 [info] > git ls-files --stage -- /home/luiza/Lu-dots/hypr/Lu-dots.code-workspace [3ms]
+2023-02-13 19:20:03.513 [info] > git ls-files --stage -- /home/luiza/Lu-dots/hypr/keywords.conf [11ms]
+2023-02-13 19:20:03.526 [info] > git cat-file -s b01ff2d3623687c98d70900d8e21d446e32c07e9 [6ms]
+2023-02-13 19:20:03.589 [info] > git show --textconv :hypr/Lu-dots.code-workspace [11ms]
+2023-02-13 19:20:03.589 [info] > git show --textconv :hypr/keywords.conf [1ms]
+2023-02-13 19:20:20.254 [info] > git show --textconv :hypr/binds.conf [14ms]
+2023-02-13 19:20:20.256 [info] > git ls-files --stage -- /home/luiza/Lu-dots/hypr/binds.conf [3ms]
+2023-02-13 19:20:20.276 [info] > git cat-file -s 0d1bf235c8eb3f14ab93137ddb7c150cecb3bb17 [11ms]
+2023-02-13 19:20:22.552 [info] > git show --textconv :hypr/input.conf [12ms]
+2023-02-13 19:20:22.553 [info] > git ls-files --stage -- /home/luiza/Lu-dots/hypr/input.conf [1ms]
+2023-02-13 19:20:22.560 [info] > git cat-file -s 079c3bf40687e53cab3c456cfa747f9ef3680dfa [0ms]
+2023-02-13 19:20:34.336 [info] > git show --textconv :hypr/binds.conf [11ms]
+2023-02-13 19:20:34.337 [info] > git ls-files --stage -- /home/luiza/Lu-dots/hypr/binds.conf [3ms]
+2023-02-13 19:20:34.345 [info] > git cat-file -s 0d1bf235c8eb3f14ab93137ddb7c150cecb3bb17 [1ms]
+2023-02-13 19:20:38.736 [info] > git show --textconv :hypr/input.conf [14ms]
+2023-02-13 19:20:38.738 [info] > git ls-files --stage -- /home/luiza/Lu-dots/hypr/input.conf [3ms]
+2023-02-13 19:20:38.747 [info] > git cat-file -s 079c3bf40687e53cab3c456cfa747f9ef3680dfa [1ms]
+2023-02-13 19:20:44.035 [info] > git config --get commit.template [3ms]
+2023-02-13 19:20:44.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:20:44.063 [info] > git status -z -uall [8ms]
+2023-02-13 19:20:44.064 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-13 19:21:22.834 [info] Log level: Info
+2023-02-13 19:21:22.834 [info] Validating found git in: "git"
+2023-02-13 19:21:22.834 [info] Using git "2.39.1" from "git"
+2023-02-13 19:21:22.837 [info] > git rev-parse --show-toplevel [18ms]
+2023-02-13 19:21:23.093 [info] > git rev-parse --show-toplevel [16ms]
+2023-02-13 19:21:39.669 [info] Log level: Info
+2023-02-13 19:21:39.669 [info] Validating found git in: "git"
+2023-02-13 19:21:39.669 [info] Using git "2.39.1" from "git"
+2023-02-13 19:21:39.669 [info] > git rev-parse --show-toplevel [8ms]
+2023-02-13 19:21:39.669 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:39.669 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-13 19:21:39.669 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:39.670 [info] > git rev-parse --show-toplevel [56ms]
+2023-02-13 19:21:39.670 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:39.687 [info] > git rev-parse --show-toplevel [10ms]
+2023-02-13 19:21:39.687 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:39.795 [info] > git rev-parse --show-toplevel [101ms]
+2023-02-13 19:21:39.795 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:39.826 [info] > git rev-parse --show-toplevel [20ms]
+2023-02-13 19:21:39.826 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:39.890 [info] > git rev-parse --show-toplevel [54ms]
+2023-02-13 19:21:39.890 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:39.947 [info] > git rev-parse --show-toplevel [48ms]
+2023-02-13 19:21:39.947 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:39.961 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-13 19:21:39.972 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-02-13 19:21:39.980 [info] Open repository: /home/luiza/.oh-my-zsh
+2023-02-13 19:21:40.017 [info] > git rev-parse --show-toplevel [30ms]
+2023-02-13 19:21:40.049 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.086 [info] > git config --get commit.template [69ms]
+2023-02-13 19:21:40.259 [info] > git rev-parse --show-toplevel [201ms]
+2023-02-13 19:21:40.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [159ms]
+2023-02-13 19:21:40.268 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-omz/oh-my-zsh/objects
+2023-02-13 19:21:40.285 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2023-02-13 19:21:40.288 [info] Open repository: /home/luiza/.vim_runtime
+2023-02-13 19:21:40.314 [info] > git rev-parse --show-toplevel [16ms]
+2023-02-13 19:21:40.314 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.331 [info] > git rev-parse --show-toplevel [10ms]
+2023-02-13 19:21:40.331 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.338 [info] > git config --get commit.template [24ms]
+2023-02-13 19:21:40.339 [info] > git rev-parse --show-toplevel [1ms]
+2023-02-13 19:21:40.339 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.347 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [63ms]
+2023-02-13 19:21:40.347 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-omz/oh-my-zsh/objects
+fatal: missing object 9c2d1af8afa02b5439e8ccc81a160e62e1e59617 for refs/remotes/origin/HEAD
+2023-02-13 19:21:40.363 [info] > git rev-parse --show-toplevel [17ms]
+2023-02-13 19:21:40.389 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.413 [info] > git status -z -uall [137ms] (cancelled)
+2023-02-13 19:21:40.413 [info] > git rev-parse --show-toplevel [12ms]
+2023-02-13 19:21:40.420 [info] > git config --get commit.template [58ms]
+2023-02-13 19:21:40.430 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2023-02-13 19:21:40.435 [info] Open repository: /home/luiza/Lu-dots
+2023-02-13 19:21:40.463 [info] > git rev-parse --show-toplevel [20ms]
+2023-02-13 19:21:40.516 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.538 [info] > git rev-parse --show-toplevel [13ms]
+2023-02-13 19:21:40.538 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.546 [info] > git config --get commit.template [89ms]
+2023-02-13 19:21:40.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [96ms]
+2023-02-13 19:21:40.546 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-omz/oh-my-zsh/objects
+2023-02-13 19:21:40.565 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-02-13 19:21:40.565 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-omz/oh-my-zsh/objects
+fatal: missing object 9c2d1af8afa02b5439e8ccc81a160e62e1e59617 for refs/remotes/origin/HEAD
+2023-02-13 19:21:40.566 [info] > git rev-parse --show-toplevel [21ms]
+2023-02-13 19:21:40.566 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.581 [info] > git rev-parse --show-toplevel [9ms]
+2023-02-13 19:21:40.581 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.596 [info] > git rev-parse --show-toplevel [8ms]
+2023-02-13 19:21:40.596 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2023-02-13 19:21:40.630 [info] > git status -z -uall [20ms]
+2023-02-13 19:21:40.631 [info] > git rev-parse --show-toplevel [28ms]
+2023-02-13 19:21:40.640 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-02-13 19:21:40.644 [info] Open repository: /home/luiza/discord-themes
+2023-02-13 19:21:40.660 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+2023-02-13 19:21:40.678 [info] > git rev-parse --show-toplevel [25ms]
+2023-02-13 19:21:40.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [330ms]
+2023-02-13 19:21:40.685 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-vim/vimrc/objects
+2023-02-13 19:21:40.739 [info] > git rev-parse --git-dir --git-common-dir [54ms]
+2023-02-13 19:21:40.742 [info] Open repository: /home/luiza/temas
+2023-02-13 19:21:40.750 [info] > git config --get commit.template [72ms]
+2023-02-13 19:21:40.750 [info] > git config --get commit.template [79ms]
+2023-02-13 19:21:40.760 [info] > git rev-parse --show-toplevel [10ms]
+2023-02-13 19:21:40.760 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.783 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [83ms]
+2023-02-13 19:21:40.783 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-vim/vimrc/objects
+fatal: missing object 2b653aa95025e29546fbd9b066931b7d90954fa9 for refs/remotes/origin/HEAD
+2023-02-13 19:21:40.816 [info] > git rev-parse --show-toplevel [49ms]
+2023-02-13 19:21:40.816 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.823 [info] > git config --get commit.template [64ms]
+2023-02-13 19:21:40.882 [info] > git status -z -uall [190ms] (cancelled)
+2023-02-13 19:21:40.882 [info] > git rev-parse --show-toplevel [59ms]
+2023-02-13 19:21:40.882 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.891 [info] > git config --get commit.template [83ms]
+2023-02-13 19:21:40.891 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [90ms]
+2023-02-13 19:21:40.919 [info] > git status -z -uall [20ms]
+2023-02-13 19:21:40.920 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2023-02-13 19:21:40.921 [info] > git rev-parse --show-toplevel [31ms]
+2023-02-13 19:21:40.921 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:21:40.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2023-02-13 19:21:40.974 [info] > git status -z -uall [28ms]
+2023-02-13 19:21:40.974 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2023-02-13 19:21:40.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [41ms]
+2023-02-13 19:21:40.979 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-vim/vimrc/objects
+2023-02-13 19:21:41.004 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2023-02-13 19:21:41.004 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-vim/vimrc/objects
+fatal: missing object 2b653aa95025e29546fbd9b066931b7d90954fa9 for refs/remotes/origin/HEAD
+2023-02-13 19:21:41.139 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [345ms]
+2023-02-13 19:21:41.197 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+2023-02-13 19:21:41.327 [info] > git check-ignore -v -z --stdin [33ms]
+2023-02-13 19:21:41.328 [info] > git check-ignore -v -z --stdin [18ms]
+2023-02-13 19:21:41.328 [info] > git check-ignore -v -z --stdin [3ms]
+2023-02-13 19:21:41.360 [info] > git check-ignore -v -z --stdin [42ms]
+2023-02-13 19:21:41.428 [info] > git check-ignore -v -z --stdin [125ms]
+2023-02-13 19:21:41.660 [info] > git status -z -uall [511ms]
+2023-02-13 19:21:41.683 [info] > git config --get commit.template [9ms]
+2023-02-13 19:21:41.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:21:41.701 [info] > git status -z -uall [9ms]
+2023-02-13 19:21:41.712 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2023-02-13 19:21:44.188 [info] > git status -z -uall [3635ms]
+2023-02-13 19:21:44.557 [info] > git status -z -uall [3570ms]
+2023-02-13 19:21:49.611 [info] > git fetch [23ms]
+2023-02-13 19:21:49.611 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-vim/vimrc/objects
+fatal: '/home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-vim/vimrc' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-02-13 19:21:49.612 [info] > git fetch [31ms]
+2023-02-13 19:21:49.612 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-omz/oh-my-zsh/objects
+fatal: '/home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-omz/oh-my-zsh' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-02-13 19:21:49.625 [info] > git config --get commit.template [6ms]
+2023-02-13 19:21:49.626 [info] > git config --get commit.template [1ms]
+2023-02-13 19:21:49.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-02-13 19:21:49.638 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-vim/vimrc/objects
+2023-02-13 19:21:49.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2023-02-13 19:21:49.651 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-omz/oh-my-zsh/objects
+2023-02-13 19:21:49.663 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2023-02-13 19:21:49.663 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-vim/vimrc/objects
+fatal: missing object 2b653aa95025e29546fbd9b066931b7d90954fa9 for refs/remotes/origin/HEAD
+2023-02-13 19:21:49.665 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-02-13 19:21:49.665 [info] error: unable to normalize alternate object path: /home/aditya/Archcraft/packages/archcraft-skeleton/archcraft-omz/oh-my-zsh/objects
+fatal: missing object 9c2d1af8afa02b5439e8ccc81a160e62e1e59617 for refs/remotes/origin/HEAD
+2023-02-13 19:21:49.673 [info] > git status -z -uall [17ms]
+2023-02-13 19:21:49.695 [info] > git status -z -uall [51ms]
+2023-02-13 19:21:50.033 [info] > git fetch [436ms]
+2023-02-13 19:21:50.058 [info] > git config --get commit.template [13ms]
+2023-02-13 19:21:50.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:21:50.079 [info] > git status -z -uall [10ms]
+2023-02-13 19:21:50.079 [info] > git fetch [469ms]
+2023-02-13 19:21:50.086 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2023-02-13 19:21:50.090 [info] > git config --get commit.template [4ms]
+2023-02-13 19:21:50.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-02-13 19:21:50.109 [info] > git status -z -uall [7ms]
+2023-02-13 19:21:50.110 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-02-13 19:21:50.195 [info] > git fetch [592ms]
+2023-02-13 19:21:50.221 [info] > git config --get commit.template [12ms]
+2023-02-13 19:21:50.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:21:50.239 [info] > git status -z -uall [9ms]
+2023-02-13 19:21:50.241 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-13 19:21:51.264 [info] > git config --get commit.template [8ms]
+2023-02-13 19:21:51.265 [info] > git config --get commit.template [3ms]
+2023-02-13 19:21:51.282 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:21:51.294 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2023-02-13 19:21:51.306 [info] > git status -z -uall [18ms]
+2023-02-13 19:21:51.306 [info] > git status -z -uall [6ms]
+2023-02-13 19:21:51.307 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2023-02-13 19:21:51.309 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-02-13 19:21:51.385 [info] > git config --get commit.template [2ms]
+2023-02-13 19:21:51.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-13 19:21:51.417 [info] > git status -z -uall [12ms]
+2023-02-13 19:21:51.418 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-13 19:21:57.105 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-13 19:21:57.105 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-02-13 19:22:08.521 [info] Log level: Info
+2023-02-13 19:22:08.521 [info] Validating found git in: "git"
+2023-02-13 19:22:08.521 [info] Using git "2.39.1" from "git"
+2023-02-13 19:22:08.523 [info] > git rev-parse --show-toplevel [9ms]
+2023-02-13 19:22:08.523 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
