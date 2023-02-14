@@ -1,0 +1,68 @@
+@define-color color1 #EF7627;
+@define-color color2 #FF9A56;
+@define-color color3 #FAF9F6;
+@define-color color4 #D162A4;
+@define-color color5 #B55690;
+@define-color colorf #1e1e1e;
+*{border-radius: 15px;
+ 	font-family: "Ubuntu", "Arimo Nerd Font Mono";
+    min-height: 0px;
+ }
+
+#waybar{
+	border-radius: 100px;
+    background-color: rgba(30,30,30,0.45);
+
+}
+
+#taskbar{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 15px;
+    background-color: rgba(10,10,10,0.56);
+    color: @color3
+}
+
+
+#tray{
+    margin-right: 8px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+    background-color: @color4;
+}
+
+#workspaces {
+    margin-left: 8px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-radius: 100px;
+    background-color: @color2;
+	color: @colorf;
+}
+
+
+#workspaces button {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    background-color: @color2;
+	color: @colorf;
+}
+
+
+#workspaces button.active {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 100px;
+    color: @color2;
+	background-color: @colorf;
+}
+
