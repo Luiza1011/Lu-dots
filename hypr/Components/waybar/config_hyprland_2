@@ -1,10 +1,20 @@
 {
 "id": "2",
-"position": "bottom",
+
+
 "layer": "top",
+"position": "bottom",
+"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"spacing": 5,
+"fixed-center": true,
+"ipc": true,
+"margin-left": 0,
+"margin-right": 0,
 	"modules-left": ["wlr/workspaces"],
     "modules-center": ["wlr/taskbar"],
-	"modules-right": ["tray"],
+	"modules-right": ["custom/cyclewall","custom/power"],
 
 
 
@@ -40,4 +50,16 @@
     "on-click-right": "minimize",
     "on-click-middle": "close",
 },
+
+"custom/power":{
+  "format": "⏻",
+  "on-click": "bash ~/.config/wofi/powermenu.sh",
+},
+
+"custom/cyclewall":{
+  "format":"",
+  "on-click": "~/.config/hypr/scripts/changeWallpaper",
+  "tooltip-format": "Change wallpaper",
+},
+
 }
