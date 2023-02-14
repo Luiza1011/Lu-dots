@@ -1,12 +1,21 @@
 {
 "id": "1",
-"position": "top",
+
 "layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 5,
+"fixed-center": true,
+"ipc": true,
+"margin-left": 0,
+"margin-right": 0,
 
 
 	"modules-left": ["clock","pulseaudio"],
-    "modules-center": ["hyprland/window"],
-	"modules-right": ["battery","custom/power"],
+    "modules-center": ["hyprland/window","battery"],
+	"modules-right": ["tray"],
 
 
 "pulseaudio": {
@@ -48,9 +57,10 @@
      },
 
 
-"custom/power":{
-        "format": "⏻",
-        "on-click": "bash ~/.config/wofi/powermenu.sh",
-    },
 
+
+"tray":{
+        "icon-size":18,
+        "spacing": 10
+    },
 }
