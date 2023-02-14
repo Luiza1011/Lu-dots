@@ -1,3 +1,3 @@
 return {
-    color_scheme = "Atelier Sulphurpool (base16)",
+    color_scheme = "Base16",
   }

@@ -13,8 +13,8 @@ if [[ -z  "$status" ]]; then
 	prompt='paucsed'
 	mesg="Playerctl controls"
 else
-	prompt="playing"
-	mesg="Playerctl controls"
+	prompt="Playerctl"
+	mesg="                                 controls"
 fi
 
 # Options
