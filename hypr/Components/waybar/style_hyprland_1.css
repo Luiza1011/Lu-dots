@@ -1,9 +1,5 @@
-@define-color color1 #EF7627;
-@define-color color2 #FF9A56;
-@define-color color3 #FAF9F6;
-@define-color color4 #D162A4;
-@define-color color5 #B55690;
-@define-color colorf #1e1e1e;
+@import url("colors.css");
+
 *{
 	font-family: "Ubuntu", "Ubuntu Nerd Font";
 	min-height: 24px;
