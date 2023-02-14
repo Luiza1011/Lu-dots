@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+
+DIR="$HOME/Lu-dots/hypr/Components/Rofi/"
+STYLE="default"
+RASI="$DIR/Rasi/asroot"
+
+## rofi sudo askpass helper
+export SUDO_ASKPASS="$DIR"/scripts/askpass
+
+## execute the application
+sudo -A $1

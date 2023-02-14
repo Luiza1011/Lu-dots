@@ -36,7 +36,11 @@
     "urgent": "",
     "default": ""
   },
-  "sort-by-number": true
+  "sort-by-number": true,
+  "smooth-scrolling-threshold": 2,
+  "on-scroll-up": "hyprctl dispatch workspace e+1",
+  "on-scroll-down": "hyprctl dispatch workspace e-1",
+
 },
 
 "tray":{
@@ -46,7 +50,7 @@
 
 "wlr/taskbar":{
     "icon-size": 18,
-    "on-click": "maximize",
+    "on-click": "activate",
     "on-click-right": "minimize",
     "on-click-middle": "close",
 },
