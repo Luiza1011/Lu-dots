@@ -12,7 +12,7 @@
 "ipc": true,
 "margin-left": 0,
 "margin-right": 0,
-	"modules-left": ["wlr/workspaces"],
+	"modules-left": ["wlr/workspaces", "custom/updater"],
     "modules-center": ["wlr/taskbar"],
 	"modules-right": ["custom/cyclewall","custom/power"],
 
@@ -60,6 +60,14 @@
   "format":"",
   "on-click": "~/.config/hypr/scripts/changeWallpaper",
   "tooltip-format": "Change wallpaper",
+},
+
+"custom/updater":{
+  "format": " {}",
+  "exec": "checkupdates | wc -l",
+  "exec-if": "[[ $(checkupdates | wc -l) ]]",
+  "interval": 15,
+  "on-click": "alacritty -e yay -Syuu && notify-send 'The system has been updated' "
 },
 
 }
