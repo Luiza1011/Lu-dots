@@ -1,6 +1,0 @@
-[2023-02-13 22:22:29.402] [GIT  ] [/home/luiza/workspaces code/~/Lu-dots] git rev-parse --show-toplevel • spawn /usr/bin/git ENOENT • 8 ms
-
-[2023-02-13 22:22:29.490] [GIT  ] [/home/luiza/workspaces code] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 11 ms
-
-[2023-02-13 22:22:29.508] [GIT  ] [/home/luiza/workspaces code] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 12 ms
-

@@ -1,9 +1,0 @@
-exec wlsunset -l -22.0703 -L -48.4334 -t 4500 -T 6500 -g 1.0
-exec swaync -s /home/luiza/.config/swaync/style.css
-exec nm-applet --indicator
-exec emacs --daemon
-exec_always nwg-dock -d -w "10" -c "wofi --show=drun --gtk-dark --lines=12 --insensitive --hide-scroll --xoffset=320 --yoffset=115 --allow-images"
-exec_always waybar -b 1 -c /home/luiza/.config/waybar/Sway/config_sway_1 -s /home/luiza/.config/waybar/Sway/style_sway_1.css
-exec_always waybar -b 2 -c /home/luiza/.config/waybar/Sway/config_sway_2 -s /home/luiza/.config/waybar/Sway/style_sway_2.css
-    exec swaybg --image /home/luiza/.config/sway/Wallpaper/Lumity.png
-exec_always autotiling -w 1 2 3 4 5 6 7 8 9 10  -l 2

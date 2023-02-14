@@ -1,8 +1,0 @@
-[2023-02-13 22:21:39.835] [GIT  ] [/home/luiza] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 51 ms
-
-[2023-02-13 22:21:57.191] [GIT  ] [/home/luiza/workspaces code] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 16 ms
-
-[2023-02-13 22:22:08.011] [GIT  ] [/home/luiza/workspaces code/~/Lu-dots] git rev-parse --show-toplevel • spawn /usr/bin/git ENOENT • 7 ms
-
-[2023-02-13 22:22:08.061] [GIT  ] [/home/luiza/workspaces code] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 8 ms
-
