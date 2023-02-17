@@ -1,9 +1,10 @@
-@define-color color1 #EF7627;
-@define-color color2 #FF9A56;
-@define-color color3 #FAF9F6;
-@define-color color4 #D162A4;
-@define-color color5 #B55690;
+@define-color pink #c50ed2;
+@define-color dark_pink #a02ea8;
+@define-color blue1 #161925;
+@define-color blue2 #181b28;
+@define-color yellow #fbf9b6;
 @define-color colorf #1e1e1e;
+@define-color color3 #FAF9F6;
 
 
 *{border-radius: 15px;
@@ -18,14 +19,17 @@
 }
 
 #taskbar{
-    border-radius: 7px;
+    border-radius: 100px;
 	margin-top: 4px;
 	margin-bottom: 4px;
 	padding-left: 6px;
 	padding-right: 6px;
 	font-size: 15px;
     background-color: rgba(10,10,10,0.56);
-    color: @color3
+    color: @color3;
+    border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
 
 
@@ -34,8 +38,11 @@
 	margin-top: 4px;
 	margin-bottom: 4px;
 	border-radius: 7px;
-    background-color: @color2;
-	color: @colorf;
+    background-color: @blue1;
+	color: @yellow;
+    border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
 
 
@@ -45,9 +52,9 @@
     margin-right: 4px;
     padding-left: 4px;
     padding-right: 4px;
+    background-color: @blue1;
+	color: @yellow;
 
-    background-color: @color2;
-	color: @colorf;
 }
 
 
@@ -58,8 +65,9 @@
     padding-left: 4px;
     padding-right: 4px;
     border-radius: 7px;
-    color: @color2;
-	background-color: @colorf;
+    background-color: @blue1;
+	color: @yellow;
+
 }
 
 #custom-updater {
@@ -72,8 +80,11 @@
 	margin-bottom: 4px;
 	border-radius: 7px;
         transition: none;
-	color: @colorf;
-	background: @color5;
+		background-color: @blue1;
+		color: @yellow;
+    border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
 
 #custom-power {
@@ -86,8 +97,11 @@
 	margin-bottom: 4px;
 	border-radius: 7px;
         transition: none;
-	color: @colorf;
-	background: @color5;
+		background-color: @blue1;
+		color: @yellow;
+    border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
 
 #custom-cyclewall {
@@ -100,19 +114,11 @@
 	margin-bottom: 4px;
 	border-radius: 7px;
         transition: none;
-	color: @colorf;
-	background: @color5;
+		background-color: @blue1;
+		color: @yellow;
+    border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
 
-#battery {
-    font-size: 17px;
-	margin-top: 4px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 4px;
-	border-radius: 7px;
-	transition: none;
-	color: @colorf;
-	background: @color4;
-}
+22
