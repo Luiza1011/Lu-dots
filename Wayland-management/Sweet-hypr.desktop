@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Sweet-Dark Hyprland
+Name=Sweet-Dark-Hyprland
 Comment=hyprland
-Exec=Hyprland -c ~/Lu-dots/Sweet-hypr/Sweet-hypr.conf
+Exec=Hyprland --config ~/Lu-dots/Sweet-hypr/hyprland.conf
 Icon=hyprland
-Type=XSession
+Type=Application
