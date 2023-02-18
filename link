@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sudo ln -r -s ~/Lu-dots/Wayland-management/Sweet-hypr.desktop /usr/share/wayland-sessions

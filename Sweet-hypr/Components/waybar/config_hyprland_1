@@ -1,0 +1,66 @@
+{
+"id": "1",
+
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 5,
+"fixed-center": true,
+"ipc": true,
+"margin-left": 0,
+"margin-right": 0,
+
+
+	"modules-left": ["clock","pulseaudio"],
+    "modules-center": ["hyprland/window","battery"],
+	"modules-right": ["tray"],
+
+
+"pulseaudio": {
+		"tooltip": false,
+		"scroll-step": 5,
+		"format": "{icon}  {volume}%",
+		"format-muted": "{icon} {volume}%",
+        "scroll-step": 1,
+        "on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-right":"pavucontrol",
+		"format-icons": {
+                "default": ["", "", ""]
+		}
+	},
+
+
+"hyprland/window": {
+    "format": " {}",
+    "separate-outputs": true,
+    },
+
+"battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+
+"clock": {
+        "format": "  {:%I:%M %p}",
+        "on-click": "~/Lu-dots/Sweet-hypr/Components/Rofi/Scripts/launcher",
+     },
+
+
+
+
+"tray":{
+        "icon-size":18,
+        "spacing": 10
+    },
+}
