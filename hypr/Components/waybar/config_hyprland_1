@@ -53,7 +53,7 @@
 
 "clock": {
         "format": "  {:%I:%M %p}",
-        "on-click": "wofi --show=drun --gtk-dark --lines=12 --insensitive --hide-scroll --xoffset=320 --yoffset=115 --allow-images",
+        "on-click": "~/Lu-dots/hypr/Components/Rofi/Scripts/launcher",
      },
 
 
