@@ -8,8 +8,8 @@
 
 
 *{border-radius: 15px;
- 	font-family: "Ubuntu", "Ubuntu Nerd Font";
-    min-height: 20px;
+ 	font-family: "Ubuntu", "Symbols Nerd Font Mono";
+    min-height: 23px;
  }
 
 #waybar{
@@ -47,7 +47,7 @@
 
 
 #workspaces button {
-    font-size: 14px;
+    font-size: 10px;
     margin-left: 4px;
     margin-right: 4px;
     padding-left: 4px;
@@ -59,14 +59,15 @@
 
 
 #workspaces button.active {
-    font-size: 17px;
+    font-size: 15px;
     margin-left: 4px;
     margin-right: 4px;
     padding-left: 4px;
     padding-right: 4px;
-    border-radius: 7px;
+    border-radius: 100px;
     background-color: @blue1;
 	color: @yellow;
+
 
 }
 

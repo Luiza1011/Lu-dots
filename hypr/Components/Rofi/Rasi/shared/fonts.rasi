@@ -4,4 +4,5 @@
 
 * {
     font: "Iosevka 10";
+    font: "Symbols Nerd Font Mono 10";
 }
