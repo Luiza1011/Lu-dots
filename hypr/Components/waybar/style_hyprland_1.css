@@ -1,4 +1,10 @@
-@import url("https://raw.githubusercontent.com/Luiza1011/Lu-dots/main/hypr/Components/waybar/sh_and_css/lesbian-colors.css");
+@define-color pink #c50ed2;
+@define-color dark_pink #a02ea8;
+@define-color blue1 #161925;
+@define-color blue2 #181b28;
+@define-color yellow #fbf9b6;
+@define-color colorf #1e1e1e;
+@define-color color3 #FAF9F6;
 
 *{
 	font-family: "Ubuntu", "Ubuntu Nerd Font";
@@ -12,15 +18,18 @@
 
 }
 
-#window{
-	border-radius: 7px;
+.modules-center{
+	border-radius: 100px;
 	background-color: rgba(20,20,20,0.5);
 	margin-top: 4px;
 	margin-bottom: 4px;
 	padding-left: 6px;
 	padding-right: 6px;
 	font-size: 15px;
-    color: @color3
+    color: @yellow;
+	border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
 
 
@@ -35,9 +44,12 @@
 	margin-bottom: 4px;
 	border-radius: 7px;
 	transition: none;
-	color: @colorf;
-	background: @color1;
+	color: @yellow;
+	background: @blue1;
 	/*background: #1A1826;*/
+	border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
 
 
@@ -49,8 +61,11 @@
 	margin-bottom: 4px;
 	border-radius: 7px;
 	transition: none;
-	color: @colorf;
-	background: @color2;
+	color: @yellow;
+	background: @blue1;
+	border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
 
 #tray{
@@ -60,5 +75,8 @@
 	margin-bottom: 4px;
 	padding-left: 6px;
 	padding-right: 6px;
-    background-color: @color4;
+    background-color: @blue1;
+	border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
 }
