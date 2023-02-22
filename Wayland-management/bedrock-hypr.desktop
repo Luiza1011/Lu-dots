@@ -1,6 +1,6 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
-Name= Bedrock-Hyprland
+Name=Bedrock-Hyprland
 Comment=hyprland
 Exec=Hyprland --config /home/luiza/Lu-dots/Bedrock-hypr/hyprland.conf
 Icon=hyprland
