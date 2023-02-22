@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Sweet-Dark-Hyprland
+Comment=hyprland
+Exec=Hyprland --config /home/luiza/Lu-dots/Bedrock-hypr/hyprland.conf
+Icon=hyprland
+Type=Application
