@@ -1,8 +1,3 @@
-@define-color pink #c50ed2;
-@define-color dark_pink #a02ea8;
-@define-color blue1 #161925;
-@define-color blue2 #181b28;
-@define-color yellow #fbf9b6;
 @define-color colorf #1e1e1e;
 @define-color color3 #FAF9F6;
 
@@ -14,7 +9,7 @@
 
 #waybar{
 	border-radius: 7px;
-    background-color: rgba(30,30,30,0.45);
+    background-color: rgba(30,30,30,0.0);
 
 }
 
@@ -26,10 +21,10 @@
 	padding-right: 6px;
 	font-size: 15px;
     background-color: rgba(10,10,10,0.56);
-    color: @color3;
-    border: solid 2px;
-    border-color: @pink;
-	border-style: solid;
+    color: @white;
+	border: solid 2px;
+    border-color: @white;
+	border-style: dashed;
 }
 
 
@@ -38,11 +33,12 @@
 	margin-top: 4px;
 	margin-bottom: 4px;
 	border-radius: 7px;
-    background-color: @blue1;
-	color: @yellow;
-    border: solid 2px;
-    border-color: @pink;
-	border-style: solid;
+	background-color: rgba(29, 29, 29, 0.801);
+;
+	color: @white;
+	border: solid 2px;
+	border-color: @white;
+	border-style: dashed;
 }
 
 
@@ -52,8 +48,8 @@
     margin-right: 4px;
     padding-left: 4px;
     padding-right: 4px;
-    background-color: @blue1;
-	color: @yellow;
+	background-color: rgba(29, 29, 29, 0.801);
+	color: @white;
 
 }
 
@@ -65,8 +61,8 @@
     padding-left: 4px;
     padding-right: 4px;
     border-radius: 100px;
-    background-color: @blue1;
-	color: @yellow;
+	background-color: rgba(29, 29, 29, 0.801);
+	color: @white;
 
 
 }
@@ -81,11 +77,11 @@
 	margin-bottom: 4px;
 	border-radius: 7px;
         transition: none;
-		background-color: @blue1;
-		color: @yellow;
-    border: solid 2px;
-    border-color: @pink;
-	border-style: solid;
+	background-color: rgba(29, 29, 29, 0.801);
+	color: @white;
+	border: solid 2px;
+	border-color: @white;
+	border-style: dashed;
 }
 
 #custom-power {
@@ -98,11 +94,11 @@
 	margin-bottom: 4px;
 	border-radius: 7px;
         transition: none;
-		background-color: @blue1;
-		color: @yellow;
-    border: solid 2px;
-    border-color: @pink;
-	border-style: solid;
+	background-color: rgba(29, 29, 29, 0.801);
+	color: @white;
+	border: solid 2px;
+	border-color: @white;
+	border-style: dashed;
 }
 
 #custom-cyclewall {
@@ -115,9 +111,9 @@
 	margin-bottom: 4px;
 	border-radius: 7px;
         transition: none;
-		background-color: @blue1;
-		color: @yellow;
-    border: solid 2px;
-    border-color: @pink;
-	border-style: solid;
+	background-color: rgba(29, 29, 29, 0.801);
+	color: @white;
+	border: solid 2px;
+	border-color: @white;
+	border-style: dashed;
 }
