@@ -71,8 +71,8 @@
   "format": " {}",
   "exec": "checkupdates | wc -l",
   "exec-if": "[[ $(checkupdates | wc -l) ]]",
-  "interval": 15,
-  "on-click": "alacritty -e yay -Syuu && notify-send 'The system has been updated' "
+  "interval": 5,
+  "on-click": "alacritty -e yay -Syyuuu --noconfirm && notify-send 'The system has been updated' "
 },
 
 }
