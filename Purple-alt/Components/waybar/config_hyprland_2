@@ -1,0 +1,27 @@
+{
+"id": "2",
+
+
+"layer": "top",
+"position": "bottom",
+"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"spacing": 5,
+"fixed-center": true,
+"ipc": true,
+"margin-left": 0,
+"margin-right": 0,
+
+
+	"modules-left": ["wlr/workspaces", "custom/updater"],
+  "modules-center": ["wlr/taskbar"],
+	"modules-right": ["custom/azote","custom/droidcam","custom/power"],
+
+  
+"include": "~/Lu-dots/Sweet-hypr/Components/waybar/Extra/Module.json",  
+}
+
+
+
+
