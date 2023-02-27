@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-sudo pacman -S pacman-contrib base-devel pamixer swaybg playerctl polkit- --noconfirm
+sudo pacman -S pacman-contrib base-devel pamixer swaybg playerctl adb v4l2loopback-dkms ffmpeg android-udev --noconfirm
 
 
 git clone https://aur.archlinux.org/hyprland-bin.git

@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+alacritty -e sudo modprobe v4l2loopback
+droidcam

@@ -12,67 +12,16 @@
 "ipc": true,
 "margin-left": 0,
 "margin-right": 0,
+
+
 	"modules-left": ["wlr/workspaces", "custom/updater"],
-    "modules-center": ["wlr/taskbar"],
-	"modules-right": ["custom/cyclewall","custom/power"],
+  "modules-center": ["wlr/taskbar"],
+	"modules-right": ["custom/azote","custom/droidcam","custom/power"],
 
-
-
-
-"wlr/workspaces": {
-  "format": "{icon}",
-  "on-click": "activate",
-  "format-icons": {
-//    "1": "",
-//    "2": "",
-//    "3": "",
-//   "4": "",
-//    "5": "",
-//    "6": "",
-//    "7": "",
-//    "8": "",
-//    "9": "",
-//    "10": "",
-    "active": "",
-    "urgent": "",
-    "default": ""
-  },
-  "sort-by-number": true,
-  "smooth-scrolling-threshold": 2,
-  "on-scroll-up": "hyprctl dispatch workspace e+1",
-  "on-scroll-down": "hyprctl dispatch workspace e-1",
-
-},
-
-"tray":{
-	"icon-size":18,
-	"spacing": 10
-},
-
-"wlr/taskbar":{
-    "icon-size": 18,
-    "on-click": "activate",
-    "on-click-right": "minimize",
-    "on-click-middle": "close",
-},
-
-"custom/power":{
-  "format": "⏻",
-  "on-click": "archlinux-logout",
-},
-
-"custom/cyclewall":{
-  "format":"",
-  "on-click": "~/.config/Sweet-hypr/scripts/changeWallpaper",
-  "tooltip-format": "Change wallpaper",
-},
-
-"custom/updater":{
-  "format": " {}",
-  "exec": "checkupdates | wc -l",
-  "exec-if": "[[ $(checkupdates | wc -l) ]]",
-  "interval": 5,
-  "on-click": "alacritty -e yay -Syyuuu --noconfirm && notify-send 'The system has been updated' "
-},
-
+  
+"include": "~/Lu-dots/Sweet-hypr/Components/waybar/Extra/Module.json",  
 }
+
+
+
+

@@ -104,14 +104,47 @@
     border-color: @pink;
 	border-style: solid;
 }
-
-#custom-cyclewall {
+#custom-azote {
 	font-size: 17px;
 	margin-top: 4px;
 	margin-left: 4px;
 	margin-right: 0px;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 4px;
+	border-radius: 7px;
+        transition: none;
+		background-color: @blue1;
+		color: @yellow;
+    border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
+}
+
+#custom-droidcam {
+	font-size: 17px;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 4px;
+	border-radius: 7px;
+        transition: none;
+		background-color: @blue1;
+		color: @yellow;
+    border: solid 2px;
+    border-color: @pink;
+	border-style: solid;
+}
+
+#custom-azote {
+	font-size: 17px;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
 	margin-bottom: 4px;
 	border-radius: 7px;
         transition: none;

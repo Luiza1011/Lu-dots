@@ -133,6 +133,7 @@ if [ -d "$HOME/.local/bin" ] ;
 fi
 
 ### ALIASES ###
+alias aster='~/go/bin/Aster'
 
 #list
 alias ls='ls --color=auto'
@@ -164,7 +165,7 @@ alias ..='cd ..'
 alias update='paru -Syuu --noconfirm --devel'
 alias aur='yay --noconfirm'
 alias install='pmm --noconfirm -q -S'
-alias remove-pacman='sudo pacman -Rcns'
+alias remove='sudo pacman -Rcns'
 alias lpkg='pmm -Q'
 
 #continue download
