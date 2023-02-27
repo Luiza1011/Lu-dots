@@ -1,6 +1,6 @@
 @define-color pink #c50ed2;
 @define-color dark_pink #a02ea8;
-@define-color blue1 rgba(22, 25, 37, 1);
+@define-color blue1 rgba(22, 25, 37, 0.4);
 @define-color blue2 #181b28;
 @define-color yellow #fbf9b6;
 @define-color colorf #1e1e1e;
@@ -28,7 +28,7 @@
 	font-size: 15px;
     color: @yellow;
 	border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.45);
 	border-style: solid;
 }
 
@@ -46,7 +46,7 @@
 	background: @blue1;
 	/*background: #1A1826;*/
 	border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 
@@ -63,7 +63,7 @@
 	background: @blue1;
 	/*background: #1A1826;*/
 	border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 
@@ -79,7 +79,7 @@
 	color: @yellow;
 	background: @blue1;
 	border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 
@@ -92,6 +92,6 @@
 	padding-right: 6px;
     background-color: @blue1;
 	border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }

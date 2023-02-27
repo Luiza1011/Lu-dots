@@ -1,6 +1,6 @@
 @define-color pink #c50ed2;
 @define-color dark_pink #a02ea8;
-@define-color blue1 rgba(22, 25, 37, 1);
+@define-color blue1 rgba(22, 25, 37, 0.4);
 @define-color blue2 #181b28;
 @define-color yellow #fbf9b6;
 @define-color colorf #1e1e1e;
@@ -28,7 +28,7 @@
     background-color: rgba(10,10,10,0.56);
     color: @color3;
     border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 
@@ -41,7 +41,7 @@
     background-color: @blue1;
 	color: @yellow;
     border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 
@@ -84,7 +84,7 @@
 		background-color: @blue1;
 		color: @yellow;
     border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 
@@ -101,7 +101,7 @@
 		background-color: @blue1;
 		color: @yellow;
     border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 #custom-azote {
@@ -117,7 +117,7 @@
 		background-color: @blue1;
 		color: @yellow;
     border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 
@@ -134,7 +134,7 @@
 		background-color: @blue1;
 		color: @yellow;
     border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
 
@@ -151,6 +151,6 @@
 		background-color: @blue1;
 		color: @yellow;
     border: solid 2px;
-    border-color: @pink;
+    border-color: rgba(30,30,30,0.6);
 	border-style: solid;
 }
