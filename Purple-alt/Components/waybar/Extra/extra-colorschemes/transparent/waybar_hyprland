@@ -1,5 +1,0 @@
-#!/usr/bin/env sh
-
-
-waybar -b 1 -c ~/Lu-dots/Sweet-hypr/Components/waybar/config_hyprland_1 -s ~/Lu-dots/Sweet-hypr/Components/waybar/Extra/extra-colorschemes/style_hyprland_1.css &
-waybar -b 2 -c ~/Lu-dots/Sweet-hypr/Components/waybar/config_hyprland_2 -s ~/Lu-dots/Sweet-hypr/Components/waybar/Extra/extra-colorschemes/style_hyprland_2.css

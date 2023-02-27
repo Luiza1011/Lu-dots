@@ -19,7 +19,7 @@
 	"modules-right": ["custom/azote","custom/droidcam","custom/power"],
 
   
-"include": "~/Lu-dots/Sweet-hypr/Components/waybar/Extra/Module.json",  
+"include": "~/Lu-dots/pink-alt/Components/waybar/Extra/Module.json",  
 }
 
 

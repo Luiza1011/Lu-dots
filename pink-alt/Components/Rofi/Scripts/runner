@@ -3,12 +3,11 @@
 ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 
 # Import Current Theme
-DIR="$HOME/Lu-dots/Sweet-hypr/Components/Rofi/"
+DIR="$HOME/Lu-dots/pink-alt/Components/Rofi/"
 STYLE="default"
-RASI="$DIR/Rasi/launcher.rasi"
-
+RASI="$DIR/Rasi/runner.rasi"
 
 # Run
 rofi \
-    -show drun \
+    -show run \
 	-theme ${RASI}

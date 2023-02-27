@@ -19,5 +19,5 @@
 	"modules-right": ["custom/media","tray"],
 
 
-"include": "~/Lu-dots/Sweet-hypr/Components/waybar/Extra/Module.json",
+"include": "~/Lu-dots/pink-alt/Components/waybar/Extra/Module.json",
 }
