@@ -162,11 +162,11 @@ alias depends='function_depends'
 #fix obvious typo's
 alias cd..='cd ..'
 alias ..='cd ..'
-alias update='paru -Syuu --noconfirm --devel'
+alias update='paru -Syuu --noconfirm --devel && flatpak update -y'
 alias aur='yay --noconfirm'
-alias install='pmm --noconfirm -q -S'
+alias install='sudo pmm --noconfirm -q -S'
 alias remove='sudo pacman -Rcns'
-alias lpkg='pmm -Q'
+alias list-pkg='pmm -Q'
 
 #continue download
 alias wget="wget -c"
@@ -177,32 +177,11 @@ alias userlist="cut -d: -f1 /etc/passwd | sort"
 #merge new settings
 alias merge="xrdb -merge ~/.Xresources"
 
-# Aliases for software managment
-# pacman
-alias pacman="sudo pacman --color auto"
-alias update="sudo pacman -Syyu"
-
-# paru as aur helper - updates everything
-alias pksyua="paru -Syu --noconfirm"
-alias upall="paru -Syu --noconfirm"
-
-#ps
-alias psa="ps auxf"
-alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
-
 #grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 #grub issue 08/2022
 alias install-grub-efi="sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi"
 
-#add new fonts
-alias update-fc='sudo fc-cache -fv'
-
-#copy/paste all content of /etc/skel over to home folder - backup of config created - beware
-#skel alias has been replaced with a script at /usr/local/bin/skel
-
-#backup contents of /etc/skel to hidden backup folder in home/user
-alias bupskel='cp -Rf /etc/skel ~/.skel-backup-$(date +%Y.%m.%d-%H.%M.%S)'
 
 #copy shell configs
 alias cb='cp /etc/skel/.bashrc ~/.bashrc && echo "Copied."'
@@ -213,14 +192,6 @@ alias cf='cp /etc/skel/.config/fish/config.fish ~/.config/fish/config.fish && ec
 alias chbash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias chzsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
 alias chfish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
-
-#switch between lightdm and sddm
-alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
-alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable sddm.service -f ; echo 'Sddm is active - reboot now'"
-alias toly="sudo pacman -S ly --noconfirm --needed ; sudo systemctl enable ly.service -f ; echo 'Ly is active - reboot now'"
-alias togdm="sudo pacman -S gdm --noconfirm --needed ; sudo systemctl enable gdm.service -f ; echo 'Gdm is active - reboot now'"
-alias tolxdm="sudo pacman -S lxdm --noconfirm --needed ; sudo systemctl enable lxdm.service -f ; echo 'Lxdm is active - reboot now'"
-
 
 #youtube download
 alias yta-aac="yt-dlp --extract-audio --audio-format aac "
